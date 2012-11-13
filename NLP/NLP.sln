@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLP", "NLP\NLP.csproj", "{E143779F-0207-41C6-BCEE-90BD5837EF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLPLib", "..\NLPLib\NLPLib\NLPLib.csproj", "{DC731F99-9C1B-4214-9FCE-A929AC51AD7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E143779F-0207-41C6-BCEE-90BD5837EF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E143779F-0207-41C6-BCEE-90BD5837EF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E143779F-0207-41C6-BCEE-90BD5837EF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E143779F-0207-41C6-BCEE-90BD5837EF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC731F99-9C1B-4214-9FCE-A929AC51AD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC731F99-9C1B-4214-9FCE-A929AC51AD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC731F99-9C1B-4214-9FCE-A929AC51AD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC731F99-9C1B-4214-9FCE-A929AC51AD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
