@@ -22,8 +22,8 @@ namespace NLPLib
             {
                 blockLangDef.blockGenuses[i].id = nextBlockId;
                 nextBlockId++;
-
-                //blockStorage.Add(blockLangDef.blockGenuses[i].name, blockLangDef.blockGenuses[i]);
+                Console.WriteLine(blockLangDef.blockGenuses[i].name);
+                blockStorage.Add(blockLangDef.blockGenuses[i].name, blockLangDef.blockGenuses[i]);
             }
         }
 

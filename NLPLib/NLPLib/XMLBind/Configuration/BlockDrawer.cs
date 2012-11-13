@@ -22,7 +22,7 @@ namespace NLPLib.XMLBind.Configuration
         public String buttonColor { get; set; }
 
         [XmlElement(ElementName = "BlockGenusMember")]
-        public String blockGenusMember { get; set; }
+        public List<String> blockGenusMember { get; set; }
 
     }
 }
