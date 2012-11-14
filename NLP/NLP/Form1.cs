@@ -90,12 +90,14 @@ namespace NLP
         {
             txtCreateIFTHENblock.BackColor = Color.Green;
             selectedBlock = "If_Then";
+            txtCreateIFTHENELSEblock.BackColor = Color.White;
         }
 
         private void txtCreateIFTHENELSEblock_Click(object sender, EventArgs e)
         {
             txtCreateIFTHENELSEblock.BackColor = Color.Green;
             selectedBlock = "If_Then_Else";
+            txtCreateIFTHENblock.BackColor = Color.White;
         }
 
         private void btnCreateBlockOK_Click(object sender, EventArgs e)
@@ -248,12 +250,14 @@ namespace NLP
         {
             txtFirstAction.BackColor = Color.Green;
             selectedAction = "run_on_monday";
+            txtSecondAction.BackColor = Color.White;
         }
 
         private void txtSecondAction_Click(object sender, EventArgs e)
         {
             txtSecondAction.BackColor = Color.Green;
             selectedAction = "sleep_on_monday_at20";
+            txtFirstAction.BackColor = Color.White;
         }
 
         private void btnAddActionOk_Click(object sender, EventArgs e)

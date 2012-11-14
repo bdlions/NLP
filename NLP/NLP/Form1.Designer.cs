@@ -112,12 +112,14 @@
             this.txtFirstAction = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.picboxAddAction = new System.Windows.Forms.PictureBox();
+            this.treeViewOptions = new System.Windows.Forms.TreeView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxWrapper)).BeginInit();
             this.pnlLeft.SuspendLayout();
             this.pnlIfElseBlock.SuspendLayout();
             this.pnlIfThenBlock.SuspendLayout();
             this.pnlRight.SuspendLayout();
+            this.pnlOptionParameter.SuspendLayout();
             this.pnlCreateBlock.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxCreateBlock)).BeginInit();
             this.pnlAddVariables.SuspendLayout();
@@ -441,6 +443,7 @@
             // pnlOptionParameter
             // 
             this.pnlOptionParameter.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlOptionParameter.Controls.Add(this.treeViewOptions);
             this.pnlOptionParameter.Location = new System.Drawing.Point(6, 94);
             this.pnlOptionParameter.Name = "pnlOptionParameter";
             this.pnlOptionParameter.Size = new System.Drawing.Size(662, 337);
@@ -954,6 +957,13 @@
             this.picboxAddAction.TabIndex = 0;
             this.picboxAddAction.TabStop = false;
             // 
+            // treeViewOptions
+            // 
+            this.treeViewOptions.Location = new System.Drawing.Point(3, 3);
+            this.treeViewOptions.Name = "treeViewOptions";
+            this.treeViewOptions.Size = new System.Drawing.Size(320, 327);
+            this.treeViewOptions.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -983,6 +993,7 @@
             this.pnlIfThenBlock.PerformLayout();
             this.pnlRight.ResumeLayout(false);
             this.pnlRight.PerformLayout();
+            this.pnlOptionParameter.ResumeLayout(false);
             this.pnlCreateBlock.ResumeLayout(false);
             this.pnlCreateBlock.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxCreateBlock)).EndInit();
@@ -1092,6 +1103,7 @@
         private System.Windows.Forms.TextBox txtFirstAction;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox picboxAddAction;
+        private System.Windows.Forms.TreeView treeViewOptions;
     }
 }
 
