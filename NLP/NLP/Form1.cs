@@ -40,6 +40,24 @@ namespace NLP
             LoadLeftNumberCondition();
             LoadRightNumberCondition();
             LoadComparisonCondition();
+
+            /*Load TreeView Options*/
+            LoadTreeViewOptions();
+        }
+
+        private void LoadTreeViewOptions()
+        { 
+            //load here
+            //demo data
+            TreeNode numberNode = new TreeNode("number");
+            numberNode.Nodes.Add("constant");
+            numberNode.Nodes.Add("decimal constant");
+
+            TreeNode comparisonNode = new TreeNode("comparison");
+            comparisonNode.Nodes.Add("is lower than");
+
+            treeViewOptions.Nodes.Add(numberNode);
+            treeViewOptions.Nodes.Add(comparisonNode);
         }
 
         private void LoadLeftNumberCondition()
