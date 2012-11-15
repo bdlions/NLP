@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using NLPLib;
+using NLPLib.XMLBind.Configuration;
 
 namespace NLP
 {
@@ -49,7 +50,7 @@ namespace NLP
         { 
             //load here
             //demo data
-            TreeNode numberNode = new TreeNode("number");
+            /*TreeNode numberNode = new TreeNode("number");
             numberNode.Nodes.Add("constant");
             numberNode.Nodes.Add("decimal constant");
 
@@ -57,7 +58,31 @@ namespace NLP
             comparisonNode.Nodes.Add("is lower than");
 
             treeViewOptions.Nodes.Add(numberNode);
-            treeViewOptions.Nodes.Add(comparisonNode);
+            treeViewOptions.Nodes.Add(comparisonNode);*/
+
+
+            WorkspaceController wc = new WorkspaceController();
+            wc.loadWorkspaceSetting();
+
+
+            List<BlockDrawer> blockDrawers = BlockLoadingUtils.blockLangDef.blockDrawerSets[0].blockDrawer;
+
+            for (int i = 0; i < blockDrawers.Count; i++)
+            {
+                TreeNode drawerNode = new TreeNode(blockDrawers[i].name);
+
+                for (int j = 0; j < blockDrawers[i].blockGenusMember.Count; j++)
+                {
+                    string genusName = blockDrawers[i].blockGenusMember[j];
+                    
+                    BlockGenus blockGenus = BlockLoadingUtils.getGenusWithName(genusName);
+
+                    drawerNode.Nodes.Add(blockGenus.initlabel);
+                }
+
+                treeViewOptions.Nodes.Add(drawerNode);
+            }
+
         }
 
         private void LoadLeftNumberCondition()
