@@ -37,6 +37,11 @@ namespace NLP
             pnlAddCondition.Visible = false;
             pnlAddAction.Visible = false;
 
+            /*Control Value*/
+            lblAddConditionLeftNumber.Text = string.Empty;
+            lblAddConditionComparison.Text = string.Empty;
+            lblAddConditionRightNumber.Text = string.Empty;
+
             /*Load DropDowns*/
             LoadLeftNumberCondition();
             LoadRightNumberCondition();
@@ -127,7 +132,7 @@ namespace NLP
             pnlCreateBlock.Visible = true;
             txtCreateIFTHENblock.BackColor = Color.White;
             txtCreateIFTHENELSEblock.BackColor = Color.White;
-            pnlCreateBlock.Location = new Point(150, 250);
+            pnlCreateBlock.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
         
@@ -175,7 +180,7 @@ namespace NLP
         private void addVariable_Click(object sender, EventArgs e)
         {
             pnlAddVariables.Visible = true;
-            pnlAddVariables.Location = new Point(150, 250);
+            pnlAddVariables.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -223,7 +228,7 @@ namespace NLP
         {
             clickedConditionBlock = "If";
             pnlAddCondition.Show();
-            pnlAddCondition.Location = new Point(180, 220);
+            pnlAddCondition.Location = new Point(200, 220);
             ControlsEnableFalse();
         }
 
@@ -232,7 +237,7 @@ namespace NLP
             clickedActionBlock = "IfThen";
             MakeActionTextBgWhite();
             pnlAddAction.Show();
-            pnlAddAction.Location = new Point(180, 220);
+            pnlAddAction.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -335,7 +340,7 @@ namespace NLP
         {
             clickedConditionBlock = "IfElseIf";
             pnlAddCondition.Show();
-            pnlAddCondition.Location = new Point(180, 220);
+            pnlAddCondition.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -344,7 +349,7 @@ namespace NLP
             clickedActionBlock = "IfElseThen";
             MakeActionTextBgWhite();
             pnlAddAction.Show();
-            pnlAddAction.Location = new Point(180, 220);
+            pnlAddAction.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -353,7 +358,7 @@ namespace NLP
             clickedActionBlock = "IfElseElse";
             MakeActionTextBgWhite();
             pnlAddAction.Show();
-            pnlAddAction.Location = new Point(180, 220);
+            pnlAddAction.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
