@@ -59,11 +59,13 @@ namespace NLP
 
             treeViewOptions.Nodes.Add(numberNode);
             treeViewOptions.Nodes.Add(comparisonNode);*/
-
+            
 
             WorkspaceController wc = new WorkspaceController();
             wc.loadWorkspaceSetting();
 
+            treeViewOptions.AllowDrop = true;
+            pnlLeft.AllowDrop = true;
 
             List<BlockDrawer> blockDrawers = BlockLoadingUtils.blockLangDef.blockDrawerSets[0].blockDrawer;
 
@@ -378,6 +380,47 @@ namespace NLP
             
         }
 
+        private void addBlock_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeViewOptions_ItemDrag(object sender, ItemDragEventArgs e)
+        {
+            DoDragDrop(e.Item, DragDropEffects.Move); 
+        }
+
+        private void treeViewOptions_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+        }
+
+        void pnlLeft_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+        }
+
+        void pnlLeft_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent("System.Windows.Forms.TreeNode", false))
+            {
+                
+                TreeNode node = (TreeNode)e.Data.GetData("System.Windows.Forms.TreeNode");
+                Console.WriteLine(node.Text);
+                if (node.Text == "if")
+                {
+                    this.pnlIfThenBlock.Show();
+                    pnlLeft.Controls.Add(pnlIfThenBlock);
+                }
+                if (node.Text == "ifelse")
+                {
+                    this.pnlIfElseBlock.Show();
+                    pnlLeft.Controls.Add(pnlIfElseBlock);
+                }
+              
+            }
+            
+        }
         
     }
 }
