@@ -402,6 +402,7 @@ namespace NLP
 
         void pnlLeft_DragDrop(object sender, DragEventArgs e)
         {
+            /*
             if (e.Data.GetDataPresent("System.Windows.Forms.TreeNode", false))
             {
                 
@@ -419,6 +420,7 @@ namespace NLP
                 }
               
             }
+            */
             
         }
         
