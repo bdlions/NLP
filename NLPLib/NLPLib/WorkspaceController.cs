@@ -30,6 +30,7 @@ namespace NLPLib
             if (!String.IsNullOrEmpty(projectContent))
             {
                 // load all project blocks
+                BlockLoadingUtils.loadProjectBlocks(projectContent);
             }
             BlockLoadingUtils.loadLangDefBlocks(langDefContent);
 
@@ -38,7 +39,7 @@ namespace NLPLib
         public void loadWorkspaceSetting()
         {
             setLangDefFromResource();
-            loadProject(null);
+            loadProject(getContentFromResource("NLPLib.sample.blocks1.xml"));
         }
 
         public void setLangDefFromResource()

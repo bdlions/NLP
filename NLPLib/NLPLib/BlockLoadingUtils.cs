@@ -6,12 +6,15 @@ using NLPLib.XMLBind.Configuration;
 using System.Xml.Serialization;
 using System.IO;
 using System.Xml;
+using NLPLib.XMLBind.Project;
 
 namespace NLPLib
 {
     public static class BlockLoadingUtils
     {
         public static BlockLangDef blockLangDef { get; set; }
+        public static CodeBlocks codeBlocks { get; set; }
+
         public static int nextBlockId = 1;
         private static Dictionary<string, BlockGenus> blockStorage = new Dictionary<string, BlockGenus>();
 
@@ -24,6 +27,15 @@ namespace NLPLib
                 nextBlockId++;
                 Console.WriteLine(blockLangDef.blockGenuses[i].name);
                 blockStorage.Add(blockLangDef.blockGenuses[i].name, blockLangDef.blockGenuses[i]);
+            }
+        }
+
+        public static void loadProjectBlocks(string projectContent)
+        {
+            codeBlocks = (CodeBlocks)xmlDeserializeFromString(projectContent, typeof(CodeBlocks));
+            for (int i = 0; i < codeBlocks.pages.Count; i++)
+            {
+                Console.WriteLine(codeBlocks.pages[i].pageName);
             }
         }
 
