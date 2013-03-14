@@ -146,8 +146,7 @@
             this.gerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1257, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -156,13 +155,13 @@
             this.blockToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addBlock});
             this.blockToolStripMenuItem.Name = "blockToolStripMenuItem";
-            this.blockToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.blockToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.blockToolStripMenuItem.Text = "Block";
             // 
             // addBlock
             // 
             this.addBlock.Name = "addBlock";
-            this.addBlock.Size = new System.Drawing.Size(106, 24);
+            this.addBlock.Size = new System.Drawing.Size(96, 22);
             this.addBlock.Text = "Add";
             this.addBlock.Click += new System.EventHandler(this.addBlock_Click);
             // 
@@ -171,13 +170,13 @@
             this.actionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addAction});
             this.actionToolStripMenuItem.Name = "actionToolStripMenuItem";
-            this.actionToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.actionToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.actionToolStripMenuItem.Text = "Action";
             // 
             // addAction
             // 
             this.addAction.Name = "addAction";
-            this.addAction.Size = new System.Drawing.Size(106, 24);
+            this.addAction.Size = new System.Drawing.Size(96, 22);
             this.addAction.Text = "Add";
             // 
             // variableToolStripMenuItem
@@ -186,20 +185,20 @@
             this.addVariable,
             this.showVariablesToolStripMenuItem});
             this.variableToolStripMenuItem.Name = "variableToolStripMenuItem";
-            this.variableToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
+            this.variableToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.variableToolStripMenuItem.Text = "Variable";
             // 
             // addVariable
             // 
             this.addVariable.Name = "addVariable";
-            this.addVariable.Size = new System.Drawing.Size(179, 24);
+            this.addVariable.Size = new System.Drawing.Size(153, 22);
             this.addVariable.Text = "Add";
             this.addVariable.Click += new System.EventHandler(this.addVariable_Click);
             // 
             // showVariablesToolStripMenuItem
             // 
             this.showVariablesToolStripMenuItem.Name = "showVariablesToolStripMenuItem";
-            this.showVariablesToolStripMenuItem.Size = new System.Drawing.Size(179, 24);
+            this.showVariablesToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.showVariablesToolStripMenuItem.Text = "Show Variables";
             // 
             // bracketToolStripMenuItem
@@ -208,19 +207,19 @@
             this.addBracket,
             this.deleteToolStripMenuItem1});
             this.bracketToolStripMenuItem.Name = "bracketToolStripMenuItem";
-            this.bracketToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.bracketToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.bracketToolStripMenuItem.Text = "Bracket";
             // 
             // addBracket
             // 
             this.addBracket.Name = "addBracket";
-            this.addBracket.Size = new System.Drawing.Size(122, 24);
+            this.addBracket.Size = new System.Drawing.Size(107, 22);
             this.addBracket.Text = "Add";
             // 
             // deleteToolStripMenuItem1
             // 
             this.deleteToolStripMenuItem1.Name = "deleteToolStripMenuItem1";
-            this.deleteToolStripMenuItem1.Size = new System.Drawing.Size(122, 24);
+            this.deleteToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.deleteToolStripMenuItem1.Text = "Delete";
             // 
             // arithmaticToolStripMenuItem
@@ -228,13 +227,13 @@
             this.arithmaticToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addArithmeticOperator});
             this.arithmaticToolStripMenuItem.Name = "arithmaticToolStripMenuItem";
-            this.arithmaticToolStripMenuItem.Size = new System.Drawing.Size(154, 24);
+            this.arithmaticToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
             this.arithmaticToolStripMenuItem.Text = "Arithmetic Operator";
             // 
             // addArithmeticOperator
             // 
             this.addArithmeticOperator.Name = "addArithmeticOperator";
-            this.addArithmeticOperator.Size = new System.Drawing.Size(106, 24);
+            this.addArithmeticOperator.Size = new System.Drawing.Size(96, 22);
             this.addArithmeticOperator.Text = "Add";
             // 
             // logicalOperatorToolStripMenuItem
@@ -243,25 +242,25 @@
             this.addLogicalOperator,
             this.deleteToolStripMenuItem2});
             this.logicalOperatorToolStripMenuItem.Name = "logicalOperatorToolStripMenuItem";
-            this.logicalOperatorToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
+            this.logicalOperatorToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
             this.logicalOperatorToolStripMenuItem.Text = "Logical Operator";
             // 
             // addLogicalOperator
             // 
             this.addLogicalOperator.Name = "addLogicalOperator";
-            this.addLogicalOperator.Size = new System.Drawing.Size(122, 24);
+            this.addLogicalOperator.Size = new System.Drawing.Size(107, 22);
             this.addLogicalOperator.Text = "Add";
             // 
             // deleteToolStripMenuItem2
             // 
             this.deleteToolStripMenuItem2.Name = "deleteToolStripMenuItem2";
-            this.deleteToolStripMenuItem2.Size = new System.Drawing.Size(122, 24);
+            this.deleteToolStripMenuItem2.Size = new System.Drawing.Size(107, 22);
             this.deleteToolStripMenuItem2.Text = "Delete";
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
@@ -270,21 +269,20 @@
             this.gerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.codeGenerator});
             this.gerToolStripMenuItem.Name = "gerToolStripMenuItem";
-            this.gerToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.gerToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.gerToolStripMenuItem.Text = "Generate";
             // 
             // codeGenerator
             // 
             this.codeGenerator.Name = "codeGenerator";
-            this.codeGenerator.Size = new System.Drawing.Size(113, 24);
+            this.codeGenerator.Size = new System.Drawing.Size(102, 22);
             this.codeGenerator.Text = "Code";
             // 
             // picBoxWrapper
             // 
-            this.picBoxWrapper.Location = new System.Drawing.Point(0, 33);
-            this.picBoxWrapper.Margin = new System.Windows.Forms.Padding(4);
+            this.picBoxWrapper.Location = new System.Drawing.Point(0, 27);
             this.picBoxWrapper.Name = "picBoxWrapper";
-            this.picBoxWrapper.Size = new System.Drawing.Size(1641, 566);
+            this.picBoxWrapper.Size = new System.Drawing.Size(1257, 689);
             this.picBoxWrapper.TabIndex = 1;
             this.picBoxWrapper.TabStop = false;
             // 
@@ -294,10 +292,9 @@
             this.pnlLeft.Controls.Add(this.pnlIfElseBlock);
             this.pnlLeft.Controls.Add(this.pnlIfThenBlock);
             this.pnlLeft.Controls.Add(this.txtEditBlock);
-            this.pnlLeft.Location = new System.Drawing.Point(16, 46);
-            this.pnlLeft.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlLeft.Location = new System.Drawing.Point(12, 37);
             this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(401, 542);
+            this.pnlLeft.Size = new System.Drawing.Size(301, 645);
             this.pnlLeft.TabIndex = 2;
             this.pnlLeft.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlLeft_DragDrop);
             this.pnlLeft.DragEnter += new System.Windows.Forms.DragEventHandler(this.pnlLeft_DragEnter);
@@ -310,72 +307,65 @@
             this.pnlIfElseBlock.Controls.Add(this.txtIfElseThenLabel);
             this.pnlIfElseBlock.Controls.Add(this.txtIfElseIfCondition);
             this.pnlIfElseBlock.Controls.Add(this.txtIfElseIfLabel);
-            this.pnlIfElseBlock.Location = new System.Drawing.Point(4, 236);
-            this.pnlIfElseBlock.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlIfElseBlock.Location = new System.Drawing.Point(3, 192);
             this.pnlIfElseBlock.Name = "pnlIfElseBlock";
-            this.pnlIfElseBlock.Size = new System.Drawing.Size(393, 267);
+            this.pnlIfElseBlock.Size = new System.Drawing.Size(295, 217);
             this.pnlIfElseBlock.TabIndex = 2;
             // 
             // txtIfElseElseAction
             // 
-            this.txtIfElseElseAction.Location = new System.Drawing.Point(5, 210);
-            this.txtIfElseElseAction.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfElseElseAction.Location = new System.Drawing.Point(4, 171);
             this.txtIfElseElseAction.Multiline = true;
             this.txtIfElseElseAction.Name = "txtIfElseElseAction";
-            this.txtIfElseElseAction.Size = new System.Drawing.Size(381, 42);
+            this.txtIfElseElseAction.Size = new System.Drawing.Size(287, 35);
             this.txtIfElseElseAction.TabIndex = 5;
             this.txtIfElseElseAction.Text = "click here to add action";
             this.txtIfElseElseAction.Click += new System.EventHandler(this.txtIfElseElseAction_Click);
             // 
             // txtIfElseElseLabel
             // 
-            this.txtIfElseElseLabel.Location = new System.Drawing.Point(5, 176);
-            this.txtIfElseElseLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfElseElseLabel.Location = new System.Drawing.Point(4, 143);
             this.txtIfElseElseLabel.Name = "txtIfElseElseLabel";
             this.txtIfElseElseLabel.ReadOnly = true;
-            this.txtIfElseElseLabel.Size = new System.Drawing.Size(381, 22);
+            this.txtIfElseElseLabel.Size = new System.Drawing.Size(287, 20);
             this.txtIfElseElseLabel.TabIndex = 4;
             this.txtIfElseElseLabel.Text = "ELSE";
             // 
             // txtIfElseThenAction
             // 
-            this.txtIfElseThenAction.Location = new System.Drawing.Point(5, 124);
-            this.txtIfElseThenAction.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfElseThenAction.Location = new System.Drawing.Point(4, 101);
             this.txtIfElseThenAction.Multiline = true;
             this.txtIfElseThenAction.Name = "txtIfElseThenAction";
-            this.txtIfElseThenAction.Size = new System.Drawing.Size(381, 42);
+            this.txtIfElseThenAction.Size = new System.Drawing.Size(287, 35);
             this.txtIfElseThenAction.TabIndex = 3;
             this.txtIfElseThenAction.Text = "click here to add action";
             this.txtIfElseThenAction.Click += new System.EventHandler(this.txtIfElseThenAction_Click);
             // 
             // txtIfElseThenLabel
             // 
-            this.txtIfElseThenLabel.Location = new System.Drawing.Point(5, 90);
-            this.txtIfElseThenLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfElseThenLabel.Location = new System.Drawing.Point(4, 73);
             this.txtIfElseThenLabel.Name = "txtIfElseThenLabel";
             this.txtIfElseThenLabel.ReadOnly = true;
-            this.txtIfElseThenLabel.Size = new System.Drawing.Size(381, 22);
+            this.txtIfElseThenLabel.Size = new System.Drawing.Size(287, 20);
             this.txtIfElseThenLabel.TabIndex = 2;
             this.txtIfElseThenLabel.Text = "THEN";
             // 
             // txtIfElseIfCondition
             // 
-            this.txtIfElseIfCondition.Location = new System.Drawing.Point(5, 39);
-            this.txtIfElseIfCondition.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfElseIfCondition.Location = new System.Drawing.Point(4, 32);
             this.txtIfElseIfCondition.Multiline = true;
             this.txtIfElseIfCondition.Name = "txtIfElseIfCondition";
-            this.txtIfElseIfCondition.Size = new System.Drawing.Size(381, 42);
+            this.txtIfElseIfCondition.Size = new System.Drawing.Size(287, 35);
             this.txtIfElseIfCondition.TabIndex = 1;
             this.txtIfElseIfCondition.Text = "click here to edit condition";
             this.txtIfElseIfCondition.Click += new System.EventHandler(this.txtIfElseIfCondition_Click);
             // 
             // txtIfElseIfLabel
             // 
-            this.txtIfElseIfLabel.Location = new System.Drawing.Point(7, 9);
-            this.txtIfElseIfLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfElseIfLabel.Location = new System.Drawing.Point(5, 7);
             this.txtIfElseIfLabel.Name = "txtIfElseIfLabel";
             this.txtIfElseIfLabel.ReadOnly = true;
-            this.txtIfElseIfLabel.Size = new System.Drawing.Size(381, 22);
+            this.txtIfElseIfLabel.Size = new System.Drawing.Size(287, 20);
             this.txtIfElseIfLabel.TabIndex = 0;
             this.txtIfElseIfLabel.Text = "IF";
             // 
@@ -385,63 +375,57 @@
             this.pnlIfThenBlock.Controls.Add(this.txtThenLabel);
             this.pnlIfThenBlock.Controls.Add(this.txtIFCondition);
             this.pnlIfThenBlock.Controls.Add(this.txtIfLabel);
-            this.pnlIfThenBlock.Location = new System.Drawing.Point(4, 44);
-            this.pnlIfThenBlock.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlIfThenBlock.Location = new System.Drawing.Point(3, 36);
             this.pnlIfThenBlock.Name = "pnlIfThenBlock";
-            this.pnlIfThenBlock.Size = new System.Drawing.Size(393, 185);
+            this.pnlIfThenBlock.Size = new System.Drawing.Size(295, 150);
             this.pnlIfThenBlock.TabIndex = 1;
             // 
             // txtIfThenAction
             // 
-            this.txtIfThenAction.Location = new System.Drawing.Point(5, 122);
-            this.txtIfThenAction.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfThenAction.Location = new System.Drawing.Point(4, 99);
             this.txtIfThenAction.Multiline = true;
             this.txtIfThenAction.Name = "txtIfThenAction";
-            this.txtIfThenAction.Size = new System.Drawing.Size(381, 42);
+            this.txtIfThenAction.Size = new System.Drawing.Size(287, 35);
             this.txtIfThenAction.TabIndex = 3;
             this.txtIfThenAction.Text = "click here to add action";
             this.txtIfThenAction.Click += new System.EventHandler(this.txtIfThenAction_Click);
             // 
             // txtThenLabel
             // 
-            this.txtThenLabel.Location = new System.Drawing.Point(5, 90);
-            this.txtThenLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.txtThenLabel.Location = new System.Drawing.Point(4, 73);
             this.txtThenLabel.Name = "txtThenLabel";
             this.txtThenLabel.ReadOnly = true;
-            this.txtThenLabel.Size = new System.Drawing.Size(381, 22);
+            this.txtThenLabel.Size = new System.Drawing.Size(287, 20);
             this.txtThenLabel.TabIndex = 2;
             this.txtThenLabel.Text = "THEN";
             // 
             // txtIFCondition
             // 
-            this.txtIFCondition.Location = new System.Drawing.Point(5, 39);
-            this.txtIFCondition.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIFCondition.Location = new System.Drawing.Point(4, 32);
             this.txtIFCondition.Multiline = true;
             this.txtIFCondition.Name = "txtIFCondition";
-            this.txtIFCondition.Size = new System.Drawing.Size(381, 42);
+            this.txtIFCondition.Size = new System.Drawing.Size(287, 35);
             this.txtIFCondition.TabIndex = 1;
             this.txtIFCondition.Text = "click here to edit condition";
             this.txtIFCondition.Click += new System.EventHandler(this.txtIFCondition_Click);
             // 
             // txtIfLabel
             // 
-            this.txtIfLabel.Location = new System.Drawing.Point(7, 9);
-            this.txtIfLabel.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIfLabel.Location = new System.Drawing.Point(5, 7);
             this.txtIfLabel.Name = "txtIfLabel";
             this.txtIfLabel.ReadOnly = true;
-            this.txtIfLabel.Size = new System.Drawing.Size(381, 22);
+            this.txtIfLabel.Size = new System.Drawing.Size(287, 20);
             this.txtIfLabel.TabIndex = 0;
             this.txtIfLabel.Text = "IF";
             // 
             // txtEditBlock
             // 
             this.txtEditBlock.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txtEditBlock.Location = new System.Drawing.Point(4, 5);
-            this.txtEditBlock.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEditBlock.Location = new System.Drawing.Point(3, 4);
             this.txtEditBlock.Multiline = true;
             this.txtEditBlock.Name = "txtEditBlock";
             this.txtEditBlock.ReadOnly = true;
-            this.txtEditBlock.Size = new System.Drawing.Size(392, 31);
+            this.txtEditBlock.Size = new System.Drawing.Size(295, 26);
             this.txtEditBlock.TabIndex = 0;
             this.txtEditBlock.Text = "Click here to edit block";
             this.txtEditBlock.Click += new System.EventHandler(this.txtEditBlock_Click);
@@ -454,67 +438,60 @@
             this.pnlRight.Controls.Add(this.label2);
             this.pnlRight.Controls.Add(this.txtCondition);
             this.pnlRight.Controls.Add(this.label1);
-            this.pnlRight.Location = new System.Drawing.Point(425, 46);
-            this.pnlRight.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlRight.Location = new System.Drawing.Point(319, 37);
             this.pnlRight.Name = "pnlRight";
-            this.pnlRight.Size = new System.Drawing.Size(896, 542);
+            this.pnlRight.Size = new System.Drawing.Size(926, 645);
             this.pnlRight.TabIndex = 3;
             // 
             // pnlOptionParameter
             // 
             this.pnlOptionParameter.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlOptionParameter.Controls.Add(this.treeViewOptions);
-            this.pnlOptionParameter.Location = new System.Drawing.Point(8, 116);
-            this.pnlOptionParameter.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlOptionParameter.Location = new System.Drawing.Point(6, 94);
             this.pnlOptionParameter.Name = "pnlOptionParameter";
-            this.pnlOptionParameter.Size = new System.Drawing.Size(881, 414);
+            this.pnlOptionParameter.Size = new System.Drawing.Size(895, 540);
             this.pnlOptionParameter.TabIndex = 4;
             // 
             // treeViewOptions
             // 
-            this.treeViewOptions.Location = new System.Drawing.Point(4, 4);
-            this.treeViewOptions.Margin = new System.Windows.Forms.Padding(4);
+            this.treeViewOptions.Location = new System.Drawing.Point(3, 3);
             this.treeViewOptions.Name = "treeViewOptions";
-            this.treeViewOptions.Size = new System.Drawing.Size(425, 402);
+            this.treeViewOptions.Size = new System.Drawing.Size(465, 530);
             this.treeViewOptions.TabIndex = 0;
             this.treeViewOptions.DragEnter += new System.Windows.Forms.DragEventHandler(this.treeViewOptions_DragEnter);
             this.treeViewOptions.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.treeViewOptions_ItemDrag);
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(7, 84);
-            this.txtCode.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCode.Location = new System.Drawing.Point(5, 68);
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(883, 22);
+            this.txtCode.Size = new System.Drawing.Size(896, 20);
             this.txtCode.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 58);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(3, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 24);
+            this.label2.Size = new System.Drawing.Size(44, 18);
             this.label2.TabIndex = 2;
             this.label2.Text = "Code";
             // 
             // txtCondition
             // 
-            this.txtCondition.Location = new System.Drawing.Point(8, 30);
-            this.txtCondition.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCondition.Location = new System.Drawing.Point(6, 24);
             this.txtCondition.Name = "txtCondition";
-            this.txtCondition.Size = new System.Drawing.Size(883, 22);
+            this.txtCondition.Size = new System.Drawing.Size(895, 20);
             this.txtCondition.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 4);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 24);
+            this.label1.Size = new System.Drawing.Size(197, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Condition in natural language";
             // 
@@ -527,18 +504,16 @@
             this.pnlCreateBlock.Controls.Add(this.txtCreateIFTHENblock);
             this.pnlCreateBlock.Controls.Add(this.label3);
             this.pnlCreateBlock.Controls.Add(this.picboxCreateBlock);
-            this.pnlCreateBlock.Location = new System.Drawing.Point(20, 594);
-            this.pnlCreateBlock.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlCreateBlock.Location = new System.Drawing.Point(15, 451);
             this.pnlCreateBlock.Name = "pnlCreateBlock";
-            this.pnlCreateBlock.Size = new System.Drawing.Size(536, 223);
+            this.pnlCreateBlock.Size = new System.Drawing.Size(402, 181);
             this.pnlCreateBlock.TabIndex = 4;
             // 
             // btnCreateBlockCancel
             // 
-            this.btnCreateBlockCancel.Location = new System.Drawing.Point(384, 156);
-            this.btnCreateBlockCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCreateBlockCancel.Location = new System.Drawing.Point(288, 127);
             this.btnCreateBlockCancel.Name = "btnCreateBlockCancel";
-            this.btnCreateBlockCancel.Size = new System.Drawing.Size(145, 52);
+            this.btnCreateBlockCancel.Size = new System.Drawing.Size(109, 42);
             this.btnCreateBlockCancel.TabIndex = 5;
             this.btnCreateBlockCancel.Text = "&Cancel";
             this.btnCreateBlockCancel.UseVisualStyleBackColor = true;
@@ -546,10 +521,9 @@
             // 
             // btnCreateBlockOK
             // 
-            this.btnCreateBlockOK.Location = new System.Drawing.Point(231, 156);
-            this.btnCreateBlockOK.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCreateBlockOK.Location = new System.Drawing.Point(173, 127);
             this.btnCreateBlockOK.Name = "btnCreateBlockOK";
-            this.btnCreateBlockOK.Size = new System.Drawing.Size(145, 52);
+            this.btnCreateBlockOK.Size = new System.Drawing.Size(109, 42);
             this.btnCreateBlockOK.TabIndex = 4;
             this.btnCreateBlockOK.Text = "&Ok";
             this.btnCreateBlockOK.UseVisualStyleBackColor = true;
@@ -558,12 +532,11 @@
             // txtCreateIFTHENELSEblock
             // 
             this.txtCreateIFTHENELSEblock.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txtCreateIFTHENELSEblock.Location = new System.Drawing.Point(7, 98);
-            this.txtCreateIFTHENELSEblock.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCreateIFTHENELSEblock.Location = new System.Drawing.Point(5, 80);
             this.txtCreateIFTHENELSEblock.Multiline = true;
             this.txtCreateIFTHENELSEblock.Name = "txtCreateIFTHENELSEblock";
             this.txtCreateIFTHENELSEblock.ReadOnly = true;
-            this.txtCreateIFTHENELSEblock.Size = new System.Drawing.Size(524, 40);
+            this.txtCreateIFTHENELSEblock.Size = new System.Drawing.Size(394, 33);
             this.txtCreateIFTHENELSEblock.TabIndex = 3;
             this.txtCreateIFTHENELSEblock.Text = "IF condition THEN action ELSE action";
             this.txtCreateIFTHENELSEblock.Click += new System.EventHandler(this.txtCreateIFTHENELSEblock_Click);
@@ -571,12 +544,11 @@
             // txtCreateIFTHENblock
             // 
             this.txtCreateIFTHENblock.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txtCreateIFTHENblock.Location = new System.Drawing.Point(5, 52);
-            this.txtCreateIFTHENblock.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCreateIFTHENblock.Location = new System.Drawing.Point(4, 42);
             this.txtCreateIFTHENblock.Multiline = true;
             this.txtCreateIFTHENblock.Name = "txtCreateIFTHENblock";
             this.txtCreateIFTHENblock.ReadOnly = true;
-            this.txtCreateIFTHENblock.Size = new System.Drawing.Size(525, 38);
+            this.txtCreateIFTHENblock.Size = new System.Drawing.Size(395, 32);
             this.txtCreateIFTHENblock.TabIndex = 2;
             this.txtCreateIFTHENblock.Text = "IF condition THEN action";
             this.txtCreateIFTHENblock.Click += new System.EventHandler(this.txtCreateIFTHENblock_Click);
@@ -585,20 +557,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(161, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(121, 7);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(203, 24);
+            this.label3.Size = new System.Drawing.Size(166, 19);
             this.label3.TabIndex = 1;
             this.label3.Text = "Condition or Action";
             // 
             // picboxCreateBlock
             // 
             this.picboxCreateBlock.BackColor = System.Drawing.Color.SeaShell;
-            this.picboxCreateBlock.Location = new System.Drawing.Point(3, 37);
-            this.picboxCreateBlock.Margin = new System.Windows.Forms.Padding(4);
+            this.picboxCreateBlock.Location = new System.Drawing.Point(2, 30);
             this.picboxCreateBlock.Name = "picboxCreateBlock";
-            this.picboxCreateBlock.Size = new System.Drawing.Size(531, 185);
+            this.picboxCreateBlock.Size = new System.Drawing.Size(398, 150);
             this.picboxCreateBlock.TabIndex = 0;
             this.picboxCreateBlock.TabStop = false;
             // 
@@ -616,10 +586,9 @@
             this.pnlAddVariables.Controls.Add(this.btnSaveAddVariables);
             this.pnlAddVariables.Controls.Add(this.label4);
             this.pnlAddVariables.Controls.Add(this.picboxAddVariables);
-            this.pnlAddVariables.Location = new System.Drawing.Point(568, 597);
-            this.pnlAddVariables.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlAddVariables.Location = new System.Drawing.Point(426, 485);
             this.pnlAddVariables.Name = "pnlAddVariables";
-            this.pnlAddVariables.Size = new System.Drawing.Size(432, 223);
+            this.pnlAddVariables.Size = new System.Drawing.Size(324, 181);
             this.pnlAddVariables.TabIndex = 5;
             // 
             // cmdAddVariableBooleanValue
@@ -628,19 +597,17 @@
             this.cmdAddVariableBooleanValue.Items.AddRange(new object[] {
             "True",
             "False"});
-            this.cmdAddVariableBooleanValue.Location = new System.Drawing.Point(319, 80);
-            this.cmdAddVariableBooleanValue.Margin = new System.Windows.Forms.Padding(4);
+            this.cmdAddVariableBooleanValue.Location = new System.Drawing.Point(239, 65);
             this.cmdAddVariableBooleanValue.Name = "cmdAddVariableBooleanValue";
-            this.cmdAddVariableBooleanValue.Size = new System.Drawing.Size(96, 24);
+            this.cmdAddVariableBooleanValue.Size = new System.Drawing.Size(73, 21);
             this.cmdAddVariableBooleanValue.TabIndex = 12;
             this.cmdAddVariableBooleanValue.Visible = false;
             // 
             // txtAddVariableValue
             // 
-            this.txtAddVariableValue.Location = new System.Drawing.Point(144, 118);
-            this.txtAddVariableValue.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAddVariableValue.Location = new System.Drawing.Point(108, 96);
             this.txtAddVariableValue.Name = "txtAddVariableValue";
-            this.txtAddVariableValue.Size = new System.Drawing.Size(271, 22);
+            this.txtAddVariableValue.Size = new System.Drawing.Size(204, 20);
             this.txtAddVariableValue.TabIndex = 11;
             this.txtAddVariableValue.Visible = false;
             // 
@@ -649,10 +616,9 @@
             this.lblAddVariableValue.AutoSize = true;
             this.lblAddVariableValue.BackColor = System.Drawing.Color.SeaShell;
             this.lblAddVariableValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddVariableValue.Location = new System.Drawing.Point(9, 122);
-            this.lblAddVariableValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddVariableValue.Location = new System.Drawing.Point(7, 99);
             this.lblAddVariableValue.Name = "lblAddVariableValue";
-            this.lblAddVariableValue.Size = new System.Drawing.Size(117, 20);
+            this.lblAddVariableValue.Size = new System.Drawing.Size(97, 16);
             this.lblAddVariableValue.TabIndex = 10;
             this.lblAddVariableValue.Text = "Variable Value";
             this.lblAddVariableValue.Visible = false;
@@ -663,10 +629,9 @@
             this.cmdAddVariableType.Items.AddRange(new object[] {
             "Boolean",
             "Number"});
-            this.cmdAddVariableType.Location = new System.Drawing.Point(145, 81);
-            this.cmdAddVariableType.Margin = new System.Windows.Forms.Padding(4);
+            this.cmdAddVariableType.Location = new System.Drawing.Point(109, 66);
             this.cmdAddVariableType.Name = "cmdAddVariableType";
-            this.cmdAddVariableType.Size = new System.Drawing.Size(160, 24);
+            this.cmdAddVariableType.Size = new System.Drawing.Size(121, 21);
             this.cmdAddVariableType.TabIndex = 9;
             this.cmdAddVariableType.SelectedIndexChanged += new System.EventHandler(this.cmdAddVariableType_SelectedIndexChanged);
             // 
@@ -675,19 +640,17 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.SeaShell;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(11, 82);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(8, 67);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 20);
+            this.label6.Size = new System.Drawing.Size(94, 16);
             this.label6.TabIndex = 8;
             this.label6.Text = "Variable Type";
             // 
             // txtAddVariableName
             // 
-            this.txtAddVariableName.Location = new System.Drawing.Point(145, 46);
-            this.txtAddVariableName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAddVariableName.Location = new System.Drawing.Point(109, 37);
             this.txtAddVariableName.Name = "txtAddVariableName";
-            this.txtAddVariableName.Size = new System.Drawing.Size(269, 22);
+            this.txtAddVariableName.Size = new System.Drawing.Size(203, 20);
             this.txtAddVariableName.TabIndex = 7;
             // 
             // label5
@@ -695,19 +658,17 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.SeaShell;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(11, 49);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(8, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 20);
+            this.label5.Size = new System.Drawing.Size(99, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Variable Name";
             // 
             // btnCalcelAddVariables
             // 
-            this.btnCalcelAddVariables.Location = new System.Drawing.Point(307, 156);
-            this.btnCalcelAddVariables.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCalcelAddVariables.Location = new System.Drawing.Point(230, 127);
             this.btnCalcelAddVariables.Name = "btnCalcelAddVariables";
-            this.btnCalcelAddVariables.Size = new System.Drawing.Size(112, 52);
+            this.btnCalcelAddVariables.Size = new System.Drawing.Size(84, 42);
             this.btnCalcelAddVariables.TabIndex = 5;
             this.btnCalcelAddVariables.Text = "&Cancel";
             this.btnCalcelAddVariables.UseVisualStyleBackColor = true;
@@ -715,10 +676,9 @@
             // 
             // btnSaveAddVariables
             // 
-            this.btnSaveAddVariables.Location = new System.Drawing.Point(176, 156);
-            this.btnSaveAddVariables.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSaveAddVariables.Location = new System.Drawing.Point(132, 127);
             this.btnSaveAddVariables.Name = "btnSaveAddVariables";
-            this.btnSaveAddVariables.Size = new System.Drawing.Size(113, 52);
+            this.btnSaveAddVariables.Size = new System.Drawing.Size(85, 42);
             this.btnSaveAddVariables.TabIndex = 4;
             this.btnSaveAddVariables.Text = "&Save";
             this.btnSaveAddVariables.UseVisualStyleBackColor = true;
@@ -728,20 +688,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(161, 9);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(121, 7);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 24);
+            this.label4.Size = new System.Drawing.Size(122, 19);
             this.label4.TabIndex = 1;
             this.label4.Text = "Add Variables";
             // 
             // picboxAddVariables
             // 
             this.picboxAddVariables.BackColor = System.Drawing.Color.SeaShell;
-            this.picboxAddVariables.Location = new System.Drawing.Point(3, 37);
-            this.picboxAddVariables.Margin = new System.Windows.Forms.Padding(4);
+            this.picboxAddVariables.Location = new System.Drawing.Point(2, 30);
             this.picboxAddVariables.Name = "picboxAddVariables";
-            this.picboxAddVariables.Size = new System.Drawing.Size(425, 185);
+            this.picboxAddVariables.Size = new System.Drawing.Size(319, 150);
             this.picboxAddVariables.TabIndex = 0;
             this.picboxAddVariables.TabStop = false;
             // 
@@ -759,10 +717,9 @@
             this.pnlAddCondition.Controls.Add(this.btnAddConditionOk);
             this.pnlAddCondition.Controls.Add(this.label7);
             this.pnlAddCondition.Controls.Add(this.picboxAddCondition);
-            this.pnlAddCondition.Location = new System.Drawing.Point(664, 556);
-            this.pnlAddCondition.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlAddCondition.Location = new System.Drawing.Point(498, 452);
             this.pnlAddCondition.Name = "pnlAddCondition";
-            this.pnlAddCondition.Size = new System.Drawing.Size(663, 315);
+            this.pnlAddCondition.Size = new System.Drawing.Size(497, 256);
             this.pnlAddCondition.TabIndex = 6;
             // 
             // panel2
@@ -770,19 +727,17 @@
             this.panel2.BackColor = System.Drawing.Color.SeaShell;
             this.panel2.Controls.Add(this.cmdAddConditionRightNumber);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(457, 113);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(343, 92);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(196, 123);
+            this.panel2.Size = new System.Drawing.Size(147, 100);
             this.panel2.TabIndex = 14;
             // 
             // cmdAddConditionRightNumber
             // 
             this.cmdAddConditionRightNumber.FormattingEnabled = true;
-            this.cmdAddConditionRightNumber.Location = new System.Drawing.Point(4, 38);
-            this.cmdAddConditionRightNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.cmdAddConditionRightNumber.Location = new System.Drawing.Point(3, 31);
             this.cmdAddConditionRightNumber.Name = "cmdAddConditionRightNumber";
-            this.cmdAddConditionRightNumber.Size = new System.Drawing.Size(185, 24);
+            this.cmdAddConditionRightNumber.Size = new System.Drawing.Size(140, 21);
             this.cmdAddConditionRightNumber.TabIndex = 13;
             this.cmdAddConditionRightNumber.SelectedIndexChanged += new System.EventHandler(this.cmdAddConditionRightNumber_SelectedIndexChanged);
             // 
@@ -791,10 +746,9 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.SeaShell;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 7);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(2, 6);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 20);
+            this.label10.Size = new System.Drawing.Size(60, 17);
             this.label10.TabIndex = 12;
             this.label10.Text = "number:";
             // 
@@ -803,19 +757,17 @@
             this.panel1.BackColor = System.Drawing.Color.SeaShell;
             this.panel1.Controls.Add(this.cmdAddCondiotionComparison);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(211, 113);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(158, 92);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(239, 123);
+            this.panel1.Size = new System.Drawing.Size(179, 100);
             this.panel1.TabIndex = 13;
             // 
             // cmdAddCondiotionComparison
             // 
             this.cmdAddCondiotionComparison.FormattingEnabled = true;
-            this.cmdAddCondiotionComparison.Location = new System.Drawing.Point(4, 38);
-            this.cmdAddCondiotionComparison.Margin = new System.Windows.Forms.Padding(4);
+            this.cmdAddCondiotionComparison.Location = new System.Drawing.Point(3, 31);
             this.cmdAddCondiotionComparison.Name = "cmdAddCondiotionComparison";
-            this.cmdAddCondiotionComparison.Size = new System.Drawing.Size(229, 24);
+            this.cmdAddCondiotionComparison.Size = new System.Drawing.Size(173, 21);
             this.cmdAddCondiotionComparison.TabIndex = 13;
             this.cmdAddCondiotionComparison.SelectedIndexChanged += new System.EventHandler(this.cmdAddCondiotionComparison_SelectedIndexChanged);
             // 
@@ -824,10 +776,9 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.SeaShell;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 7);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(2, 6);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 20);
+            this.label9.Size = new System.Drawing.Size(85, 17);
             this.label9.TabIndex = 12;
             this.label9.Text = "comparison:";
             // 
@@ -836,19 +787,17 @@
             this.pnlAddConditionLeftNumber.BackColor = System.Drawing.Color.SeaShell;
             this.pnlAddConditionLeftNumber.Controls.Add(this.cmdAddConditionLeftNumber);
             this.pnlAddConditionLeftNumber.Controls.Add(this.label8);
-            this.pnlAddConditionLeftNumber.Location = new System.Drawing.Point(7, 113);
-            this.pnlAddConditionLeftNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlAddConditionLeftNumber.Location = new System.Drawing.Point(5, 92);
             this.pnlAddConditionLeftNumber.Name = "pnlAddConditionLeftNumber";
-            this.pnlAddConditionLeftNumber.Size = new System.Drawing.Size(196, 123);
+            this.pnlAddConditionLeftNumber.Size = new System.Drawing.Size(147, 100);
             this.pnlAddConditionLeftNumber.TabIndex = 12;
             // 
             // cmdAddConditionLeftNumber
             // 
             this.cmdAddConditionLeftNumber.FormattingEnabled = true;
-            this.cmdAddConditionLeftNumber.Location = new System.Drawing.Point(4, 38);
-            this.cmdAddConditionLeftNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.cmdAddConditionLeftNumber.Location = new System.Drawing.Point(3, 31);
             this.cmdAddConditionLeftNumber.Name = "cmdAddConditionLeftNumber";
-            this.cmdAddConditionLeftNumber.Size = new System.Drawing.Size(185, 24);
+            this.cmdAddConditionLeftNumber.Size = new System.Drawing.Size(140, 21);
             this.cmdAddConditionLeftNumber.TabIndex = 13;
             this.cmdAddConditionLeftNumber.SelectedIndexChanged += new System.EventHandler(this.cmdAddConditionLeftNumber_SelectedIndexChanged);
             // 
@@ -857,10 +806,9 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.SeaShell;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(3, 7);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(2, 6);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 20);
+            this.label8.Size = new System.Drawing.Size(60, 17);
             this.label8.TabIndex = 12;
             this.label8.Text = "number:";
             // 
@@ -868,10 +816,9 @@
             // 
             this.lblAddConditionRightNumber.AutoSize = true;
             this.lblAddConditionRightNumber.BackColor = System.Drawing.Color.SeaShell;
-            this.lblAddConditionRightNumber.Location = new System.Drawing.Point(453, 73);
-            this.lblAddConditionRightNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddConditionRightNumber.Location = new System.Drawing.Point(340, 59);
             this.lblAddConditionRightNumber.Name = "lblAddConditionRightNumber";
-            this.lblAddConditionRightNumber.Size = new System.Drawing.Size(86, 17);
+            this.lblAddConditionRightNumber.Size = new System.Drawing.Size(64, 13);
             this.lblAddConditionRightNumber.TabIndex = 9;
             this.lblAddConditionRightNumber.Text = "rightNumber";
             // 
@@ -879,10 +826,9 @@
             // 
             this.lblAddConditionComparison.AutoSize = true;
             this.lblAddConditionComparison.BackColor = System.Drawing.Color.SeaShell;
-            this.lblAddConditionComparison.Location = new System.Drawing.Point(209, 73);
-            this.lblAddConditionComparison.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddConditionComparison.Location = new System.Drawing.Point(157, 59);
             this.lblAddConditionComparison.Name = "lblAddConditionComparison";
-            this.lblAddConditionComparison.Size = new System.Drawing.Size(81, 17);
+            this.lblAddConditionComparison.Size = new System.Drawing.Size(61, 13);
             this.lblAddConditionComparison.TabIndex = 8;
             this.lblAddConditionComparison.Text = "comparison";
             // 
@@ -890,10 +836,9 @@
             // 
             this.lblAddConditionLeftNumber.AutoSize = true;
             this.lblAddConditionLeftNumber.BackColor = System.Drawing.Color.SeaShell;
-            this.lblAddConditionLeftNumber.Location = new System.Drawing.Point(11, 73);
-            this.lblAddConditionLeftNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddConditionLeftNumber.Location = new System.Drawing.Point(8, 59);
             this.lblAddConditionLeftNumber.Name = "lblAddConditionLeftNumber";
-            this.lblAddConditionLeftNumber.Size = new System.Drawing.Size(77, 17);
+            this.lblAddConditionLeftNumber.Size = new System.Drawing.Size(58, 13);
             this.lblAddConditionLeftNumber.TabIndex = 7;
             this.lblAddConditionLeftNumber.Text = "leftNumber";
             // 
@@ -903,18 +848,16 @@
             this.cmdAddConditonType.Items.AddRange(new object[] {
             "Condition",
             "Action"});
-            this.cmdAddConditonType.Location = new System.Drawing.Point(7, 41);
-            this.cmdAddConditonType.Margin = new System.Windows.Forms.Padding(4);
+            this.cmdAddConditonType.Location = new System.Drawing.Point(5, 33);
             this.cmdAddConditonType.Name = "cmdAddConditonType";
-            this.cmdAddConditonType.Size = new System.Drawing.Size(160, 24);
+            this.cmdAddConditonType.Size = new System.Drawing.Size(121, 21);
             this.cmdAddConditonType.TabIndex = 6;
             // 
             // btnAddConditionCancel
             // 
-            this.btnAddConditionCancel.Location = new System.Drawing.Point(536, 268);
-            this.btnAddConditionCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddConditionCancel.Location = new System.Drawing.Point(402, 218);
             this.btnAddConditionCancel.Name = "btnAddConditionCancel";
-            this.btnAddConditionCancel.Size = new System.Drawing.Size(120, 36);
+            this.btnAddConditionCancel.Size = new System.Drawing.Size(90, 29);
             this.btnAddConditionCancel.TabIndex = 5;
             this.btnAddConditionCancel.Text = "&Cancel";
             this.btnAddConditionCancel.UseVisualStyleBackColor = true;
@@ -922,10 +865,9 @@
             // 
             // btnAddConditionOk
             // 
-            this.btnAddConditionOk.Location = new System.Drawing.Point(411, 268);
-            this.btnAddConditionOk.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddConditionOk.Location = new System.Drawing.Point(308, 218);
             this.btnAddConditionOk.Name = "btnAddConditionOk";
-            this.btnAddConditionOk.Size = new System.Drawing.Size(120, 36);
+            this.btnAddConditionOk.Size = new System.Drawing.Size(90, 29);
             this.btnAddConditionOk.TabIndex = 4;
             this.btnAddConditionOk.Text = "&Ok";
             this.btnAddConditionOk.UseVisualStyleBackColor = true;
@@ -935,20 +877,18 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(280, 9);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(210, 7);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 24);
+            this.label7.Size = new System.Drawing.Size(87, 19);
             this.label7.TabIndex = 1;
             this.label7.Text = "Condition";
             // 
             // picboxAddCondition
             // 
             this.picboxAddCondition.BackColor = System.Drawing.Color.SeaShell;
-            this.picboxAddCondition.Location = new System.Drawing.Point(3, 37);
-            this.picboxAddCondition.Margin = new System.Windows.Forms.Padding(4);
+            this.picboxAddCondition.Location = new System.Drawing.Point(2, 30);
             this.picboxAddCondition.Name = "picboxAddCondition";
-            this.picboxAddCondition.Size = new System.Drawing.Size(660, 274);
+            this.picboxAddCondition.Size = new System.Drawing.Size(495, 223);
             this.picboxAddCondition.TabIndex = 0;
             this.picboxAddCondition.TabStop = false;
             // 
@@ -961,18 +901,16 @@
             this.pnlAddAction.Controls.Add(this.txtFirstAction);
             this.pnlAddAction.Controls.Add(this.label11);
             this.pnlAddAction.Controls.Add(this.picboxAddAction);
-            this.pnlAddAction.Location = new System.Drawing.Point(1091, 538);
-            this.pnlAddAction.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlAddAction.Location = new System.Drawing.Point(818, 437);
             this.pnlAddAction.Name = "pnlAddAction";
-            this.pnlAddAction.Size = new System.Drawing.Size(536, 223);
+            this.pnlAddAction.Size = new System.Drawing.Size(402, 181);
             this.pnlAddAction.TabIndex = 7;
             // 
             // btnAddActionCancel
             // 
-            this.btnAddActionCancel.Location = new System.Drawing.Point(384, 156);
-            this.btnAddActionCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddActionCancel.Location = new System.Drawing.Point(288, 127);
             this.btnAddActionCancel.Name = "btnAddActionCancel";
-            this.btnAddActionCancel.Size = new System.Drawing.Size(145, 52);
+            this.btnAddActionCancel.Size = new System.Drawing.Size(109, 42);
             this.btnAddActionCancel.TabIndex = 5;
             this.btnAddActionCancel.Text = "&Cancel";
             this.btnAddActionCancel.UseVisualStyleBackColor = true;
@@ -980,10 +918,9 @@
             // 
             // btnAddActionOk
             // 
-            this.btnAddActionOk.Location = new System.Drawing.Point(231, 156);
-            this.btnAddActionOk.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddActionOk.Location = new System.Drawing.Point(173, 127);
             this.btnAddActionOk.Name = "btnAddActionOk";
-            this.btnAddActionOk.Size = new System.Drawing.Size(145, 52);
+            this.btnAddActionOk.Size = new System.Drawing.Size(109, 42);
             this.btnAddActionOk.TabIndex = 4;
             this.btnAddActionOk.Text = "&Ok";
             this.btnAddActionOk.UseVisualStyleBackColor = true;
@@ -992,12 +929,11 @@
             // txtSecondAction
             // 
             this.txtSecondAction.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txtSecondAction.Location = new System.Drawing.Point(7, 98);
-            this.txtSecondAction.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSecondAction.Location = new System.Drawing.Point(5, 80);
             this.txtSecondAction.Multiline = true;
             this.txtSecondAction.Name = "txtSecondAction";
             this.txtSecondAction.ReadOnly = true;
-            this.txtSecondAction.Size = new System.Drawing.Size(524, 40);
+            this.txtSecondAction.Size = new System.Drawing.Size(394, 33);
             this.txtSecondAction.TabIndex = 3;
             this.txtSecondAction.Text = "sleep on Monday at 20 ";
             this.txtSecondAction.Click += new System.EventHandler(this.txtSecondAction_Click);
@@ -1005,12 +941,11 @@
             // txtFirstAction
             // 
             this.txtFirstAction.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txtFirstAction.Location = new System.Drawing.Point(5, 52);
-            this.txtFirstAction.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFirstAction.Location = new System.Drawing.Point(4, 42);
             this.txtFirstAction.Multiline = true;
             this.txtFirstAction.Name = "txtFirstAction";
             this.txtFirstAction.ReadOnly = true;
-            this.txtFirstAction.Size = new System.Drawing.Size(525, 38);
+            this.txtFirstAction.Size = new System.Drawing.Size(395, 32);
             this.txtFirstAction.TabIndex = 2;
             this.txtFirstAction.Text = "run on Monday";
             this.txtFirstAction.Click += new System.EventHandler(this.txtFirstAction_Click);
@@ -1019,28 +954,26 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(161, 9);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(121, 7);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(203, 24);
+            this.label11.Size = new System.Drawing.Size(166, 19);
             this.label11.TabIndex = 1;
             this.label11.Text = "Condition or Action";
             // 
             // picboxAddAction
             // 
             this.picboxAddAction.BackColor = System.Drawing.Color.SeaShell;
-            this.picboxAddAction.Location = new System.Drawing.Point(3, 37);
-            this.picboxAddAction.Margin = new System.Windows.Forms.Padding(4);
+            this.picboxAddAction.Location = new System.Drawing.Point(2, 30);
             this.picboxAddAction.Name = "picboxAddAction";
-            this.picboxAddAction.Size = new System.Drawing.Size(531, 185);
+            this.picboxAddAction.Size = new System.Drawing.Size(398, 150);
             this.picboxAddAction.TabIndex = 0;
             this.picboxAddAction.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 745);
+            this.ClientSize = new System.Drawing.Size(1257, 746);
             this.Controls.Add(this.pnlAddAction);
             this.Controls.Add(this.pnlAddCondition);
             this.Controls.Add(this.pnlAddVariables);
@@ -1050,7 +983,6 @@
             this.Controls.Add(this.picBoxWrapper);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Natural Language Processing";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

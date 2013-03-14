@@ -25,6 +25,14 @@ namespace NLP
         string selectedAction = string.Empty;
         string clickedConditionBlock = string.Empty;
         string clickedActionBlock = string.Empty;
+        List<string> mathList = new List<string>();
+        List<string> logicList = new List<string>();
+        List<string> alertList = new List<string>();
+        List<string> drawList = new List<string>();
+        List<string> optionList = new List<string>();
+        List<string> actionList = new List<string>();
+        List<string> generalList = new List<string>();
+
         #endregion
 
         private void Form1_Load(object sender, EventArgs e)
@@ -36,6 +44,11 @@ namespace NLP
             pnlIfElseBlock.Visible = false;
             pnlAddCondition.Visible = false;
             pnlAddAction.Visible = false;
+
+            /*Control Value*/
+            lblAddConditionLeftNumber.Text = string.Empty;
+            lblAddConditionComparison.Text = string.Empty;
+            lblAddConditionRightNumber.Text = string.Empty;
 
             /*Load DropDowns*/
             LoadLeftNumberCondition();
@@ -80,6 +93,31 @@ namespace NLP
                     BlockGenus blockGenus = BlockLoadingUtils.getGenusWithName(genusName);
 
                     drawerNode.Nodes.Add(blockGenus.initlabel);
+                    
+                    switch (blockDrawers[i].name)
+                    {
+                        case "Math":
+                            mathList.Add(blockGenus.initlabel);
+                            break;
+                        case "Logic":
+                            logicList.Add(blockGenus.initlabel);
+                            break;
+                        case "Alerts":
+                            alertList.Add(blockGenus.initlabel);
+                            break;
+                        case "Draw":
+                            drawList.Add(blockGenus.initlabel);
+                            break;
+                        case "Option":
+                            optionList.Add(blockGenus.initlabel);
+                            break;
+                        case "Action":
+                            actionList.Add(blockGenus.initlabel);
+                            break;
+                        default:
+                            generalList.Add(blockGenus.initlabel);
+                            break;
+                    }
                 }
 
                 treeViewOptions.Nodes.Add(drawerNode);
@@ -127,7 +165,7 @@ namespace NLP
             pnlCreateBlock.Visible = true;
             txtCreateIFTHENblock.BackColor = Color.White;
             txtCreateIFTHENELSEblock.BackColor = Color.White;
-            pnlCreateBlock.Location = new Point(150, 250);
+            pnlCreateBlock.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
         
@@ -175,7 +213,7 @@ namespace NLP
         private void addVariable_Click(object sender, EventArgs e)
         {
             pnlAddVariables.Visible = true;
-            pnlAddVariables.Location = new Point(150, 250);
+            pnlAddVariables.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -223,7 +261,7 @@ namespace NLP
         {
             clickedConditionBlock = "If";
             pnlAddCondition.Show();
-            pnlAddCondition.Location = new Point(180, 220);
+            pnlAddCondition.Location = new Point(200, 220);
             ControlsEnableFalse();
         }
 
@@ -232,7 +270,7 @@ namespace NLP
             clickedActionBlock = "IfThen";
             MakeActionTextBgWhite();
             pnlAddAction.Show();
-            pnlAddAction.Location = new Point(180, 220);
+            pnlAddAction.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -308,6 +346,12 @@ namespace NLP
         private void btnAddActionOk_Click(object sender, EventArgs e)
         {
             //MessageBox.Show(selectedBlock);
+            /*
+            foreach (string item in actionList)
+            {
+                MessageBox.Show(item);
+            }
+              */
             if (selectedAction == "run_on_monday")
             {
                 SetActionTextBlock("run on Monday");
@@ -335,7 +379,7 @@ namespace NLP
         {
             clickedConditionBlock = "IfElseIf";
             pnlAddCondition.Show();
-            pnlAddCondition.Location = new Point(180, 220);
+            pnlAddCondition.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -344,7 +388,7 @@ namespace NLP
             clickedActionBlock = "IfElseThen";
             MakeActionTextBgWhite();
             pnlAddAction.Show();
-            pnlAddAction.Location = new Point(180, 220);
+            pnlAddAction.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -353,7 +397,7 @@ namespace NLP
             clickedActionBlock = "IfElseElse";
             MakeActionTextBgWhite();
             pnlAddAction.Show();
-            pnlAddAction.Location = new Point(180, 220);
+            pnlAddAction.Location = new Point(300, 220);
             ControlsEnableFalse();
         }
 
@@ -402,6 +446,7 @@ namespace NLP
 
         void pnlLeft_DragDrop(object sender, DragEventArgs e)
         {
+            /*
             if (e.Data.GetDataPresent("System.Windows.Forms.TreeNode", false))
             {
                 
@@ -419,6 +464,7 @@ namespace NLP
                 }
               
             }
+            */
             
         }
         
